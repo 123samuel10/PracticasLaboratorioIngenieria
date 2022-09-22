@@ -96,7 +96,7 @@ public class PrestamoController {
             }else {
                 salir2=contadoUnoMonitor+contadorDosMonitor;
                 salir2=prestamo.getPrestamos().length;
-                JOptionPane.showMessageDialog(null,"hola");
+
                 break;
             }
         }
