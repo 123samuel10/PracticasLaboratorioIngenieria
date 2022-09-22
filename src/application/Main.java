@@ -17,6 +17,7 @@ public class Main {
         PrestamoController prestamoController=new PrestamoController();
 
 
+
         while (bandera){
             int opciones=Integer.parseInt(JOptionPane.showInputDialog("MENU\n1.Estudiante\n2Monitores\n3.Prestamos"));
             switch (opciones){
@@ -31,6 +32,7 @@ public class Main {
                         break;
                         case 4:estudianteContolador.buscar();
                         break;
+
 
 
                     }

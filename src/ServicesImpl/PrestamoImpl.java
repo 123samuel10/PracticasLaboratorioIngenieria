@@ -16,6 +16,7 @@ public class PrestamoImpl implements PrestamoService {
 
     @Override
     public void crearPrestamo(String fecha, int fechaFinal, int codigo, Student student, Monitor monitor) {
+
         for (int i=0;i<cantidad;i++){
             if (this.prestamos[i]==null){
                 this.prestamos[i]=new Prestamo(fecha,fechaFinal,codigo,student,monitor);
@@ -26,6 +27,7 @@ public class PrestamoImpl implements PrestamoService {
             }
         }
     }
+
 
 
     @Override
